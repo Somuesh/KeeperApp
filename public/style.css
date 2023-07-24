@@ -1,0 +1,181 @@
+/*Primary css*/
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #eee;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* login form CSS */
+/* .login-head{
+    text-align: center;
+}
+.login{
+        background-color: rgba(78, 187, 151, 0.728);
+        margin-top: 100px;
+        width: 300px;
+        margin-left:auto;
+        margin-right: auto;
+        padding: 1% 1%;
+        
+        border-radius: 5px;
+        box-shadow: 1px 2px 5px #f8be1d;
+} */
+
+/* input field CSS */
+/* .input{
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    width: 80%;
+    padding: 2% 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    
+} */
+
+
+/* Navbar CSS*/
+header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+}
+
+header {
+    background-color: #f5ba13;
+    /* margin: auto -16px; */
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+}
+
+.welcome {
+    margin-top: 10px;
+    color: #eee;
+    font-size: medium;
+    float: right;
+}
+
+/*Note Card*/
+
+.noteBox {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+}
+
+.noteBox h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+}
+
+.noteBox p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    /* white-space: pre-wrap;
+    word-wrap: break-word; */
+}
+
+.noteBox button {
+    position: relative;
+    float: right;
+    color: #f5ba13;
+    border: none;
+    border-radius: 1rem;
+    width: 70px;
+    height: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+/*note card number*/
+
+.number {
+    border-radius: 100%;
+    border: #f8be1d solid 2px;
+    font-weight: bold;
+    width: 1.5rem;
+    height: 1.5rem;
+    overflow: hidden;
+    text-align: center;
+    /* padding: 10px; */
+    float: right;
+}
+
+div.number:hover {
+    background-color: rgba(77, 2, 2, 0.858);
+    color: white;
+    transform: scale(1.2);
+}
+
+.number p {
+    font-size: 0.8rem;
+}
+
+/*Footer CSS*/
+
+footer p {
+    color: #ccc;
+}
+
+div.footer {
+    position: absolute;
+    /* display: block; */
+    bottom: 0%;
+    text-align: center;
+    width: 100%;
+    padding: 1%;
+}
+
+
+
+/* form CSS */
+
+form {
+    position: relative;
+    width: 480px;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+}
+
+form button {
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    background: #f5ba13;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+}
